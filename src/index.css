@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Outfit:wght@300&family=Raleway:ital@1&family=Ubuntu&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background-color: black;
+}
+
+h1,h4,p , a{
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 12px 13px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248 , 217 , 15);
+  color: #222;
+  border: 1px solid #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  color: #fff;
+}
+
+.btn:hover{
+  background: rgba(255 , 255 , 255 , 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.hello{
+  color: red;
+}
+
+
+.serve{
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.Hero-Img{
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  height: 60vh;
+  position: relative; 
+}
+
+.about{
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  height: 60vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heading{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-about{
+  padding: 2rem 0;
+}
+
+.home-about p{
+  line-height: 30px;
+  
+}
+
+
+
+
+.home-about h1:hover{
+  background: rgba(255 , 255 , 255 , 0.2);
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+
+
+.rey{
+  color: #fff;
+  
+}
+
+
+.kite{
+  padding: 12rem 12rem;
+  display: grid;
+  grid-template-columns: repeat(2, .6fr);
+  grid-gap: 20px;
+}
+
+@media  screen and (max-width: 740px) {
+  .kite{
+    padding: 2rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, .6fr);
+    grid-gap: 20px;
+  }    
+}
+
+
+
+
+
+
+
+.abiut p{
+  line-height: 30px;
+  margin-top: 2rem;;
+  
+ 
+}
+
+.abiut h1{
+  line-height: 30px;
+  margin-top: 2rem;
+  
+  
+}
