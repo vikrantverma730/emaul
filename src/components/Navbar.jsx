@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./NavbarStyle.css";
+import Img from "../assests/123.png"
 
 
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -28,7 +29,7 @@ const Navbar = () => {
     return (
         <>
             <div className={color ? "header header-bg" : "header"}>
-                <img src="../assets/123.png" alt="" />
+                <img src={Img} alt="" />
 
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
